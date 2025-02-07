@@ -3,6 +3,11 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
   background: var(--bg-1);
   padding: 0 40px;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .header .inner-wrap {
